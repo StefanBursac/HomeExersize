@@ -11,7 +11,7 @@ namespace DataBinding
         public string name;
 
           public string Name
-        {
+        { 
             get
             {
                 return name;
