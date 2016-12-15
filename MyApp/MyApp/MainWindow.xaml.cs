@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace DataBinding
+namespace MyApp
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -23,8 +23,17 @@ namespace DataBinding
         public MainWindow()
         {
             InitializeComponent();
-            Person person = new Person();
-            DataContext = person;
+        }
+
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+
+            Movie movie = new Movie();
+
+            t.Text = movie.Lista();
+
+
+
         }
     }
 }

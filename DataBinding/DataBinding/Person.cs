@@ -8,7 +8,7 @@ namespace DataBinding
 {
     public class Person
     {
-        public string name;
+        public string name = "Stefan";
 
           public string Name
         { 

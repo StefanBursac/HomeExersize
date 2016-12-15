@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace DataBinding
+namespace Twoway
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -23,8 +23,6 @@ namespace DataBinding
         public MainWindow()
         {
             InitializeComponent();
-            Person person = new Person();
-            DataContext = person;
         }
     }
 }
